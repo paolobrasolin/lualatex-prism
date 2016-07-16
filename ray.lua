@@ -67,7 +67,7 @@ end
 i0 = 90
 IV = u
 
-for w=300,800,5 do
+for w=300,800,1 do
     n = sellmeier(w)
     i1 = snell(n_air, n, i0)
     o0 = v - i1
